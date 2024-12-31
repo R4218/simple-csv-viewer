@@ -44,13 +44,14 @@ export default function CSVTable({ uploadedFile, resetUpload }) {
           Clear & Upload Another
         </button>
       </div>
-      <div className="overflow-auto max-w-full">
+      <div className="overflow-auto max-w-full max-h-dvh">
         <table className="table-auto w-full border-collapse border border-primary">
           <thead>
-            <tr>
+            <tr className="sticky top-0 bg-primary text-accent">
+              <th className="border border-r-green-500 p-2">S.No</th>
               {data[0] &&
                 Object.keys(data[0]).map((key) => (
-                  <th key={key} className="border border-primary p-2">
+                  <th key={key} className="border border-r-green-500 p-2">
                     {key}
                   </th>
                 ))}
@@ -59,6 +60,7 @@ export default function CSVTable({ uploadedFile, resetUpload }) {
           <tbody>
             {filteredData.map((row, idx) => (
               <tr key={idx}>
+                <th className="border border-primary p-2">{idx + 1}</th>
                 {Object.values(row).map((val, i) => (
                   <td key={i} className="border border-primary p-2">
                     {val}
