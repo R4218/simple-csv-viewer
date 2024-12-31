@@ -1,40 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# CSV Viewer Web Application
 
-## Getting Started
+Welcome to the **CSV Viewer Web Application**! This professional tool, built using [Next.js](https://nextjs.org/), allows users to upload and view CSV files in a responsive and user-friendly interface. With features like light/dark mode, dynamic table rendering. This app provides a seamless experience for managing and exploring CSV data.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **Core Features**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Upload and View CSV Files**: Effortlessly upload and visualize CSV data in a tabular format.
+- **Search, Filter, and Sort**: Quickly find and organize data within the table.
+- **Responsive Design**: Works seamlessly across devices (desktop, tablet, and mobile).
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### **Advanced Features**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- **Light/Dark Mode**: Toggle between light and dark themes for better accessibility.
+- **Loading Indicator**: See a loader while CSV files are being processed.
+- **Scrollable Table**: Handle large datasets with a horizontal scrollbar for better navigation.
+- **Clear and Upload New File**: Quickly reset the viewer and upload a new CSV file.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. Navigate to the **Home Page**.
+2. Click the **Upload CSV** button to select your CSV file.
+3. View your data in the responsive table on the CSV View page.
+4. Use the **Search** bar to filter data or sort columns directly.
+5. Switch between **Light and Dark Mode** using the toggle button in the header.
+6. Use the **Clear and Upload Another CSV** button to reset and upload a new file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: Tailwind CSS
+- **CSV Parsing**: [PapaParse](https://www.papaparse.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## Contact
+
+For questions or support, please reach out to [rahman.razibur@gmail.com](mailto:rahman.razibur@gmail.com).
+
+---
+
+**Star this repository on GitHub if you found it helpful!** 🌟
