@@ -41,6 +41,16 @@ export default function Home() {
           content="CSV Viewer, Upload CSV, Online CSV Viewer, WebVives"
         />
         <link rel="icon" href="/favicon.ico" />
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YFXRCM9MBK"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-YFXRCM9MBK');
+        </script>
       </Head>
       <Header theme={theme} toggleTheme={toggleTheme} />
       <main className="p-4">
